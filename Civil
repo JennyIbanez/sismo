@@ -12,7 +12,7 @@ public class Civil {
 	double p; //variable aleatoria inicial (0,1) para el panico
 	int r; //radio de vision
 	int k; //umbral para entrar en panico
-	
+	//constructor
 	public Civil(ContinuousSpace<Object> space, Grid<Object> grid, double velocidad, double p, int r, int k) {
 		this.space = space;
 		this.grid = grid;
